@@ -52,7 +52,7 @@ const Layout: React.FC<Props> = ({ children }) => {
           gridTemplateRows: 'auto 50px',
         }}
       >
-        <div className="overflow-y-scroll h-full">{children}</div>
+        <div className="overflow-y-none h-full">{children}</div>
       </main>
       <footer>
         <Footer />
