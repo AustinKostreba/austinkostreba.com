@@ -1,0 +1,22 @@
+@tailwind base;
+
+html {
+  @apply text-gray-900;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Coustard";
+    font-weight: 900;
+    src: url('../../public/fonts/coustard/Coustard-Black.woff') format("woff");
+  }
+  @font-face {
+    font-family: "Suez One";
+    font-weight: 400;
+    src: url('../../public/fonts/Suez_One/SuezOne-Regular.woff') format("woff");
+  }
+}
