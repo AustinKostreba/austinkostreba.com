@@ -13,7 +13,7 @@
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "tailwindcss": "^1.8.6"
+    "tailwindcss": "^1.8.9"
   },
   "devDependencies": {
     "@types/jest": "^26.0.9",
